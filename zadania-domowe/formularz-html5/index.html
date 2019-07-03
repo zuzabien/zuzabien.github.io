@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/zuzanna.bienkowska@gmail.com" method="POST">
+        <label>Imie:<input type="text" name="name"></label><br>
+
+        <label>Nazwisko:<input type="text" name="lastname"></label><br>
+
+        <label>E-mail:<input type="email" name="_replyto"></label><br>
+
+        <label>Nr telefonu:<input type="tel" name="phonenr"></label><br>
+
+        <label>Wybierz miasto: 
+            <select name="city">
+                <option value="gdansk">Gdansk</option>
+                <option value="krakow">Krakow</option>
+                <option value="warszawa" selected>Warszawa</option>
+            </select></label><br>
+
+        <p>Wybierz plec:</p>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Kobieta</label><br>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Mezczyzna</label><br><br>
+
+        <label>Wpisz wiadomosc:<br> 
+        <textarea name="message" cols="30" rows="10"></textarea></label><br>
+
+        <input type="checkbox" name="agreement" required>
+            <label>Wyrazam zgode na przetwarzanie danych osobowych</label><br><br>
+
+        <input type="submit" value="Wyslij wiadomosc">
+    </form>
+</body>
+</html>
