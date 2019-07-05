@@ -1,0 +1,31 @@
+@media all and (max-width: 768px) {
+    .about img {
+        width: 100%;
+    }
+
+    .contact form input {
+        flex-basis: 100%;
+    }
+
+    .photo {
+        flex-basis: 50%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .main-nav label {
+        display: block;
+    }
+
+    .main-nav ul {
+        display: none;
+    }
+
+    input[type="checked"]:checked + ul {
+        display: flex;
+    }
+
+    .photo {
+        flex-basis: 100%;
+    }
+}

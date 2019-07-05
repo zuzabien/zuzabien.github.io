@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- dla zachowania kaskadowosci - responsive zawsze pod stylami  -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" 
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" 
+        crossorigin="anonymous">
+</head>
+<body>
+    <!-- header start -->
+    <header class="header">
+        <div class="header-inner">
+            <h1>Front end developer</h1><hr>
+            <p>Html<span>&#8226</span>Css<span>&#8226</span><span class="java-script">JavaScript</span></p>
+            <a class="more" href="#about">Dowiedz sie wiecej</a>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- nav start -->
+    <nav class="main-nav">
+        <label for="menu">Menu</label>
+        <input type="checkbox" id="menu" name="menu">
+        <ul>
+            <li class="list-item"><a href="#about">O mnie</a></li>
+            <li class="list-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="list-item"><a href="#contact">Kontakt</a></li>
+        </ul>
+    </nav> 
+    <!-- nav end -->
+
+    <!-- section about start -->
+    <section id="about" class="about">
+        <h2>O mnie</h2><hr>
+        <figure>
+            <img src="img/about.jpg" alt="Moje zdjecie">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ullam recusandae repellendus 
+            debitis, quisquam doloremque dolor illum neque atque sed, assumenda reiciendis, labore vel 
+            architecto esse maiores placeat. Harum, animi esse repudiandae cumque, magni ipsam quisquam quos 
+            tempore sunt nobis, quis dolores officiis non in rerum! Libero maxime similique ducimus quam. 
+            Accusamus ad debitis modi doloremque, dolores commodi ullam quos ipsa neque hic magnam, suscipit 
+            ab optio officiis, nam facere temporibus numquam aut! Sunt, laboriosam quod quam ad tempora quasi 
+            nihil quibusdam dignissimos eos aut unde iusto inventore saepe excepturi, consectetur amet similique 
+            minima. Vitae libero modi eius rem autem!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi ullam recusandae repellendus 
+            debitis, quisquam doloremque dolor illum neque atque sed, assumenda reiciendis, labore vel 
+            architecto esse maiores placeat. Harum, animi esse repudiandae cumque, magni ipsam quisquam quos 
+            tempore sunt nobis, quis dolores officiis non in rerum! Libero maxime similique ducimus quam. 
+            Accusamus ad debitis modi doloremque, dolores commodi ullam quos ipsa neque hic magnam, suscipit 
+            ab optio officiis, nam facere temporibus numquam aut! Sunt, laboriosam quod quam ad tempora quasi 
+            nihil quibusdam dignissimos eos aut unde iusto inventore saepe excepturi, consectetur amet similique 
+            minima. Vitae libero modi eius rem autem!</p>
+        </figure>        
+        <a class="more" href="#portfolio">Moje portfolio</a>
+    </section>
+    <!-- section about end -->
+
+    <!-- section portfolio start -->
+    <!-- section#portfolio>h2{Portfolio}+hr+.container>.photo.photo-$*12>.mask>p{projekt} -->
+    <section id="portfolio" class="portfolio">
+        <h2>Portfolio</h2><hr>
+        <div class="container">
+            <div class="photo photo-1">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-2">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-3">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-4">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-5">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-6">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-7">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-8">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-9">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-10">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-11">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+            <div class="photo photo-12">
+                <div class="mask">
+                    <p>projekt</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section portfolio end -->
+
+    <!-- section contact start -->
+    <!-- #contact.contact>(h2{Kontakt}+hr)+form>input*2+textarea+input -->
+    <section id="contact" class="contact">
+        <h2>Kontakt</h2><hr>
+        <form action="https://formspree.io/zuzanna.bienkowska@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Imie"><br>    
+            <input type="email" name="_replyto" placeholder="E-mail"><br>    
+            <textarea name="msg" id="msg" placeholder="Wiadomosc"></textarea><br>
+            <input class="more" type="submit" value="Wyslij wiadomosc">
+        </form>
+        <!-- .social-div>a*4>i.fab -->
+        <div class="social-div">
+            <a href=""><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+            <a href=""><i class="fab fa-instagram fa-2x"></i></a>
+            <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+        </div>
+    </section>
+    <!-- section contact end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+        <p>Copyright &copy Akademia 108</p>
+    </footer>
+     <!-- footer end  -->
+</body>
+</html>
