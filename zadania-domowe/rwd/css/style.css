@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    font-family: Verdana;
+    color: #fff;
+    text-transform: uppercase;
+    align-content: center;
+    padding: 0 16px; 
+    position: relative; 
+    top: 40%;  
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    background-image: url("../obrazy/man-1.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.7em;
+}
