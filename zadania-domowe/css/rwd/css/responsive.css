@@ -1,11 +1,27 @@
 @media all and (max-width: 1170px) {
-    .header-inner {
-        
+    .container {
+        height: 80vh;
+        background-image: url("../obrazy/man-2.jpg");
+        background-size: cover;
+        justify-content: flex-end;        
+    }
+
+    .header {
+        top: 0;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+    
+    h2 {
+        font-size: 1.4em;
     }
 }
 
 @media all and (max-width: 992px) {
-    .header-inner {
-
+    .container {
+        height: 50vh;
+        background-image: url("../obrazy/man-1.jpg");
+        background-size: cover;
     }
-}
