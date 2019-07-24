@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+ 
+.container {
+    display: flex;  
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.container > * {
+    padding: 20px;
+    flex: 100%;
+}
+
+.header {
+    background: rgba(255, 51, 0, 0.993);
+}
+
+.footer {
+    background-color: rgb(131, 84, 194);
+}
+
+.article {
+    text-align: center;
+    background: rgb(0, 162, 255);
+}
+
+.aside-left {
+    background: green;
+}
+
+.aside-right {
+    background: pink;
+}
