@@ -7,6 +7,14 @@ body {
 }
 
 .header {
+    height: 100vh;
+    display: flex;
+    background-image: url("../obrazy/man-1.jpg");
+    background-size: cover;
+}
+
+.header-text {
+    height: 40px;
     font-family: Verdana;
     color: #fff;
     text-transform: uppercase;
@@ -14,13 +22,6 @@ body {
     padding: 0 16px; 
     position: relative; 
     top: 40%;  
-}
-
-.container {
-    height: 100vh;
-    display: flex;
-    background-image: url("../obrazy/man-1.jpg");
-    background-size: cover;
 }
 
 h1 {

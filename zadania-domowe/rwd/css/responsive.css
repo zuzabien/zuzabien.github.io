@@ -1,12 +1,12 @@
 @media all and (max-width: 1170px) {
-    .container {
+    .header {
         height: 80vh;
         background-image: url("../obrazy/man-2.jpg");
         background-size: cover;
         justify-content: flex-end;        
     }
 
-    .header {
+    .header-text {
         top: 0;
     }
 
@@ -20,8 +20,21 @@
 }
 
 @media all and (max-width: 992px) {
-    .container {
+    .header {
         height: 50vh;
         background-image: url("../obrazy/man-1.jpg");
         background-size: cover;
     }
+}
+
+@media all and (max-width: 992px) {
+    .header {
+        justify-content: center;
+    }
+
+    .header-text {
+        top: 100%;
+        color: black;
+        text-align: center;
+    }
+}
